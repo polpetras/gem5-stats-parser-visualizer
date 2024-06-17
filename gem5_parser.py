@@ -244,10 +244,10 @@ def parse_stat(ln):
 def add_stats_in_dataframe(simdirs, selected_attrs):
 
     sim_cnt = 0
-    roi_cnt = 0
     df = pd.DataFrame(columns = df_cols)
 
     for dir in simdirs:
+        roi_cnt = 0
         printd('--- Directory: %s ---'%dir)
         short_roi_list = get_short_rois_list(dir)
 
