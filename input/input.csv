@@ -1,3 +1,8 @@
+system.switch_cpus[1-3].mmu.permsFaults,value,,
+system.switch_cpus[1-3].mmu.dtb.readMisses,value,,
+system.switch_cpus[1-3].mmu.dtb.readAccesses,value,,
+system.cpu[1-3].l2.cache.numDataArrayReads,value,Array Reads,
+system.cpu[1-3].l2.datIn.m_msg_count,value,L2 data in,
 simSeconds,value,Sim Seconds,
 hostOpRate,value,Kilo-Ops/sec,1000
 simInsts,value,SimInsts,
