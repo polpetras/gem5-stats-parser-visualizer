@@ -38,7 +38,7 @@ User can specify a filter substring for the simulation directories (e.g. `sim`).
 
 ### Step 3
 
-    Run gem5_parser.py script, to parse ROI files and create the plots in output file graphs_out.pdf. By default the last ROI is ignored. Adjust ignore_last_roi if you want to plot that ROI also.
+Run `gem5_parser.py` script, to parse ROI files and create the plots in output file `graphs_out.pdf`. By default the last ROI is ignored. Adjust `ignore_last_roi` if you want to plot that ROI also.
 
 ## Complex expressions in statistics input
 
