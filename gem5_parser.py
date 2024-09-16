@@ -268,6 +268,8 @@ def add_stats_in_dataframe(simdirs, selected_attrs):
             roi_cnt += 1
         sim_cnt += 1
 
+    #print_dataframe(df)
+
     return df
 
 
@@ -476,7 +478,7 @@ plt.rcParams.update({'figure.max_open_warning': 0})
 
 linestyles = ['-','--',':','-','--','-.', '-','--','-.','-','--','-.']
 markers = ['.', '^', 'x' ]
-g_colors = ['blue', 'orange', 'green', 'red', 'purple', 'darkorange', 'cornflowerblue']
+g_colors = ['blue', 'orange', 'green', 'red', 'purple', 'darkorange', 'darkviolet', 'pink']
 
 graph_pdf_fname = 'graphs_out.pdf'
 

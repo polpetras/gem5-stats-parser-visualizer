@@ -87,7 +87,7 @@ system.mem_ctrls[7-8].dram.writeRowHitRate,value,Row buffer hit rate for writes 
 system.mem_ctrls[7-8].avgRdQLen,value,,
 system.mem_ctrls[7-8].avgWrQLen,value,,
 system.mem_ctrls[7-8].dram.avgRdBW,value,Read BW (MB/s),
-system.mem_ctrls[7-8].dram.avgWrBW,value,Read BW (MB/s),
+system.mem_ctrls[7-8].dram.avgWrBW,value,Write BW (MB/s),
 system.mem_ctrls[0-8].dram.peakBW,value,Peak BW (MB/s),
 system.mem_ctrls[7-8].dram.numReads::total,value,,
 system.mem_ctrls[7-8].dram.numWrites::total,value,,
