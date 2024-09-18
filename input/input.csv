@@ -75,19 +75,19 @@ system.mem_ctrls[7-8].bytesReadSys,value,Total MB read from the system interface
 system.mem_ctrls[7-8].bytesWrittenSys,value,Total written MB from the system interface side,1000000
 system.mem_ctrls[7-8].avgRdBWSys,value,Average system read bandwidth in MByte/s,1000000
 system.mem_ctrls[7-8].avgWrBWSys,value,Average system write bandwidth in MByte/s,1000000
-system.mem_ctrls[7-8].totGap,value,Total gap between requests (Cycles),500
-system.mem_ctrls[7-8].avgGap,value,Average gap between requests (Cycles),500
-system.mem_ctrls[7-8].dram.avgQLat,value,Average queueing delay per DRAM burst (Cycles),500
-system.mem_ctrls[7-8].dram.avgBusLat,value,Average bus latency per DRAM burst (Cycles),500
-system.mem_ctrls[7-8].dram.avgMemAccLat,value,Average memory access latency per DRAM burst (Cycles),500
+system.mem_ctrls[7-8].totGap,value,Total gap between requests (nsec),1000
+system.mem_ctrls[7-8].avgGap,value,Average gap between requests (nsec),1000
+system.mem_ctrls[7-8].dram.avgQLat,value,Average queueing delay per DRAM burst (nsec),1000
+system.mem_ctrls[7-8].dram.avgBusLat,value,Average bus latency per DRAM burst (nsec),1000
+system.mem_ctrls[7-8].dram.avgMemAccLat,value,Average memory access latency per DRAM burst (nsec),1000
 system.mem_ctrls[7-8].dram.readRowHits,value,Number of row buffer hits during reads (Count),
 system.mem_ctrls[7-8].dram.writeRowHits,value,Number of row buffer hits during writes (Count),
 system.mem_ctrls[7-8].dram.readRowHitRate,value,Row buffer hit rate for reads (Ratio),
 system.mem_ctrls[7-8].dram.writeRowHitRate,value,Row buffer hit rate for writes (Ratio),
 system.mem_ctrls[7-8].avgRdQLen,value,,
 system.mem_ctrls[7-8].avgWrQLen,value,,
-system.mem_ctrls[7-8].dram.avgRdBW,value,Read BW (MB/s),
-system.mem_ctrls[7-8].dram.avgWrBW,value,Write BW (MB/s),
+system.mem_ctrls[7-8].dram.avgRdBW,value,Read BW (MiB/s),
+system.mem_ctrls[7-8].dram.avgWrBW,value,Write BW (MiB/s),
 system.mem_ctrls[0-8].dram.peakBW,value,Peak BW (MB/s),
 system.mem_ctrls[7-8].dram.numReads::total,value,,
 system.mem_ctrls[7-8].dram.numWrites::total,value,,
